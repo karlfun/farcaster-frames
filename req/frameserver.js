@@ -1,5 +1,5 @@
 /* from https://blog.developerdao.com/farcaster-frames-explained */
-/* need both node.js and Express.js and possibly JSON too */
+/* need both node.js and Express.js */
 
 const express = require("express")
 const app = express()
