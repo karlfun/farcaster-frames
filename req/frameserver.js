@@ -29,8 +29,8 @@ app.post("/frame", (request, response) => {
     <title>Frame 2</title>
 
     <meta property="fc:frame" content="vNext">
-    <meta property="fc:frame:image" content="https://example.com/image.jpg">
-    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="fc:frame:image" content="https://i.imgur.com/zjvJy83.jpg">
+    <meta property="og:image" content="https://i.imgur.com/zjvJy83.jpg">
     <meta property="fc:frame:button:1" content="wiggle back">
     <!--<meta property="fc:frame:button:1" content="Your FID is: ${fid}">-->
   `)
