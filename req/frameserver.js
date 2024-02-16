@@ -13,10 +13,10 @@ app.get("/frame", (request, response) => {
     <title>Frame 1</title>
 
     <meta property="fc:frame" content="vNext">
-    <meta property="fc:frame:image" content="https://example.com/image.jpg">
-    <meta property="og:image" content="https://example.com/image.jpg">
-    <meta property="fc:frame:post_url" content="https://example.com/frame">
-    <meta property="fc:frame:button:1" content="Next Frame">
+    <meta property="fc:frame:image" content="https://i.imgur.com/ySQ084f.jpg">
+    <meta property="og:image" content="https://i.imgur.com/ySQ084f.jpg">
+    <meta property="fc:frame:post_url" content="https://farcaster-frames-five.vercel.app/req/frameserver.js">
+    <meta property="fc:frame:button:1" content="wiggle me">
   `)
 })
 
@@ -31,7 +31,7 @@ app.post("/frame", (request, response) => {
     <meta property="fc:frame" content="vNext">
     <meta property="fc:frame:image" content="https://example.com/image.jpg">
     <meta property="og:image" content="https://example.com/image.jpg">
-    <meta property="fc:frame:button:1" content="Your FID is: ${fid}">
+    <meta property="fc:frame:button:1" content="wiggle back">
     <!--<meta property="fc:frame:button:1" content="Your FID is: ${fid}">-->
   `)
 
